@@ -7,7 +7,3 @@ This is a template chef structure for deploying Rails applications. The example 
 The configuration is also flexible enough to be adapted to multi machine setups.
 
 ## Documentation
-
-This is the example code which section one of the book "Reliably Deploying Rails Applications" available from leanpub here <https://leanpub.com/deploying_rails_applications> is based.
-
-If you run into any issues using the template provided here, please open a Github issue, I actively monitor these and will respond as quickly as possible.
