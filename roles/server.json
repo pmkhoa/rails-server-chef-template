@@ -48,7 +48,7 @@
         "allow" : ["yourusername","yourpassword"]
       }
     },
-    "monit_address" : "address_here"
+    "monit_address" : "monit_address_here"
   },
   "json_class": "Chef::Role",
   "run_list": [
