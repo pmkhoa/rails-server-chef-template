@@ -49,7 +49,7 @@
     "password" : {
       // this should be generated with:
       // openssl passwd -1 "plaintextpassword"
-      "postgres" : "$1$ASpgxSbq$Hz2mtAux8QpPVfugC5edc1"
+      "postgres" : ""
     }
   },
   "run_list":

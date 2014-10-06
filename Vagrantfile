@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.cpus = 2
   end
 
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "thoughtbot/ubuntu-14-04-server-with-laptop"
   config.berkshelf.enabled = false
 
   # This should match the version specified in your
@@ -42,7 +42,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         end
       end
 
-      vagrant_name = node_json["vagrant"]["name"] 
+      vagrant_name = node_json["vagrant"]["name"]
       vagrant_ip = node_json["vagrant"]["ip"]
 
       config.vm.define vagrant_name do |vagrant|
